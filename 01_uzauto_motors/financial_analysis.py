@@ -6,6 +6,10 @@
 
 import matplotlib.pyplot as plt
 import numpy as np
+import os
+
+# Create the 'charts' directory if it doesn't exist
+os.makedirs('charts', exist_ok=True)
 
 # ------------------------------------------------------------------------------
 # 1. DATASET SETUP & FINANCIAL METRICS
